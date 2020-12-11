@@ -1,5 +1,5 @@
 # Udacity Starbucks Capstone Challenge
-Capstone project Starbucks
+Capstone project Starbucks <br>
 Udacity Nanodegree: Date Science
 
 # Objective
@@ -10,6 +10,17 @@ To be succesful on this task I will mainly focus on the following five quesitons
 * Is the customer gender important for the offer completion rate?
 * What is the most important channel for completing an offer?
 * Is there any correlation between the offer types and offer completion rate?
+
+# Procedure
+I will proceed the following steps to answer the above mentioned questions and successfully complete this project:
+* Data wrangling <br>
+The Data wrangling chapter consists of multiple steps, namely: 'gathering data', 'assesing data' and 'cleaning data'. This is about loading and analyzing the input data sets, as well as cleaning the data that they can be used for further investigations. At the end I will merge the data frames to have one complete cleaned data frame which will be saved. In this way all the cleaning steps do not need to be repeated if one wants to analyze the data later on. 
+* Exploratory data analysis <br>
+The exploratory data analysis is about the analysis and visualization of the data. First of all, on gets a deeper feeling of the data, prepares first insights and if possible also answers the first questions from the problem set. 
+* Machine Learning approche for recommendations <br>
+After the data analysis, a chapter will present a machine learning approche for recommentations. First of all three different machine learning models will be used with training and test data, best best predicting model will be improved and used to predict the most predictive features on which Starbucks can then focus. 
+* Recommendation <br>
+The last section will summarize the results and give some recommendations for Starbucks advertisement campaign.
 
 # Libraries
 The code is written in Python3 and following python libraries are used within the project:
