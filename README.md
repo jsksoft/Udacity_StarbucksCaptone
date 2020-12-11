@@ -43,10 +43,18 @@ It contains the follwing files:
 
 
 # Results
+* The data investigation should that the completion rate increased with customer age. In addition, if one gets the customer to view the offer, the completion rate is between 60% and 80% for users between around 40 years and 95 years.
+* The income has a similar behaviour as the age. The success or completion rate is increasing linearly with the income. Starting from an income of around $35,000 and a completion rate of 50% up to a completion rate of about 90% for registered customers with an income of more than $100,000.
+* Looking at the registered customers who completed all offers, it is obvious that the percentage of the female registered customers completing all offers increases compared to the total gender distribution. <br>
+Therefore on this first look it could be that females are more likely to complete an offer than males.
+* The received completion rate of the completed offer / received offer (blue in the above plot) is more or less equal through all advertisement channels, but if the offer has been viewed, the highest completion rate is visible for the ‘web’ channel with an increase of about 25%, followed by ‘email’ with an increase of about 20%.
+* Discount offers which have been viewed are most likely to be completed. The decrease steps from the received to the viewed and completed bogo offers are pretty similar leaving the discount offer the most often completed one.
+* The machine learning approche identified the five most predictive feaures which are income and the age with a hugh distance to the next important features, duration and difficulty. The fifth most important feature is the gender male.
 
-
+Looking at these results, I would recommend Starbucks to focus on the age, income and gender of the customer and taking into account the difficulty and duration as well as the advertising channel of the offers. So overall the best rate for completing all offers are given for an elder female customer with a high income of at least $80,000. The offer should be a discount and distributed via web, email or mobile (in this order).
 
 
 # Acknowledgements
 I want to thank Udacity and Starbucks providing the simulated dataset. <br>
 My results are summarized on a blog post which can be found here: <br>
+https://jklinder.medium.com/how-to-improve-the-advertisement-campaign-for-starbucks-bf71fe6afb2a
